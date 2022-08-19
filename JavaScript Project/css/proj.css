@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("/img/backgroundimage.jpg"); 
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: white;
+    font-size: 3em;
+    background-color: red;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+.container #clock {
+    background-color: black;
+    width: 30vw;
+    text-align: center;
+
+}
+
+.container #clock span {
+    color: white;
+    font-size: 4rem;
+    margin-left: 5px;
+}
+
+
+@media(max-width:662px) {
+    .container #clock span {
+        font-size: 2rem;
+    }
+
+    
+}
